@@ -2,28 +2,43 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>創のブログ</title>
+  <title>創のTech Blog</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header>
-    <h1>創のブログ</h1>
+    <div class="logo">創のTech Blog</div>
     <nav>
-      <a href="index.html">ホーム</a> |
-      <a href="about.html">このブログについて</a>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="posts/">Blog</a>
+      <a href="contact.html">Contact</a>
     </nav>
   </header>
 
-  <main>
-    <h2>最新記事</h2>
-    <ul>
-      <li><a href="posts/post1.html">初めての記事を書いてみた</a> (2025/10/03)</li>
-      <li><a href="posts/post2.html">GitHubのメリットまとめ</a> (2025/10/04)</li>
-    </ul>
+  <section class="hero">
+    <h1>AI × 音楽 × 創造力</h1>
+    <p>研究とアイデアをシェアするブログ</p>
+  </section>
+
+  <main class="posts">
+    <article class="card">
+      <img src="images/sample1.jpg" alt="記事1">
+      <h2><a href="posts/post1.html">GitHubのメリットまとめ</a></h2>
+      <p class="date">2025/10/03</p>
+      <p>開発効率・コラボレーション・ポートフォリオ…GitHubの魅力を解説。</p>
+    </article>
+
+    <article class="card">
+      <img src="images/sample2.jpg" alt="記事2">
+      <h2><a href="posts/post2.html">ブログを自作するメリット</a></h2>
+      <p class="date">2025/10/04</p>
+      <p>なぜ自分でブログを書くのか？知識の整理から発信力まで。</p>
+    </article>
   </main>
 
   <footer>
-    <p>© 2025 創</p>
+    <p>© 2025 創 | <a href="https://github.com/ユーザー名">GitHub</a></p>
   </footer>
 </body>
 </html>
