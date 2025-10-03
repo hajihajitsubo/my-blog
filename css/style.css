@@ -1,0 +1,29 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+  background: #fdfdfd;
+  color: #333;
+}
+
+header, footer {
+  text-align: center;
+  padding: 10px;
+  background: #eee;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #0073e6;
+}
+
+main ul {
+  list-style: none;
+  padding: 0;
+}
+main li {
+  margin-bottom: 10px;
+}
